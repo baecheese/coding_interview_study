@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		99B6D22E231BA24F006AC290 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B6D22D231BA24F006AC290 /* main.swift */; };
-		99B6D235231BA942006AC290 /* StringChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B6D234231BA942006AC290 /* StringChecker.swift */; };
-		99B6D237231BA96C006AC290 /* PureStringCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B6D236231BA96C006AC290 /* PureStringCheck.swift */; };
+		99B6D245231BB8B6006AC290 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B6D244231BB8B6006AC290 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		99B6D228231BA24F006AC290 /* CopyFiles */ = {
+		99B6D23F231BB8B6006AC290 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		99B6D22A231BA24F006AC290 /* DuplicatedCheck */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DuplicatedCheck; sourceTree = BUILT_PRODUCTS_DIR; };
-		99B6D22D231BA24F006AC290 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		99B6D234231BA942006AC290 /* StringChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringChecker.swift; sourceTree = "<group>"; };
-		99B6D236231BA96C006AC290 /* PureStringCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureStringCheck.swift; sourceTree = "<group>"; };
+		99B6D241231BB8B6006AC290 /* Permutation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Permutation; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B6D244231BB8B6006AC290 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		99B6D227231BA24F006AC290 /* Frameworks */ = {
+		99B6D23E231BB8B6006AC290 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,99 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		99B6D221231BA24E006AC290 = {
+		99B6D238231BB8B6006AC290 = {
 			isa = PBXGroup;
 			children = (
-				99B6D22C231BA24F006AC290 /* DuplicatedCheck */,
-				99B6D22B231BA24F006AC290 /* Products */,
+				99B6D243231BB8B6006AC290 /* Permutation */,
+				99B6D242231BB8B6006AC290 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		99B6D22B231BA24F006AC290 /* Products */ = {
+		99B6D242231BB8B6006AC290 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99B6D22A231BA24F006AC290 /* DuplicatedCheck */,
+				99B6D241231BB8B6006AC290 /* Permutation */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		99B6D22C231BA24F006AC290 /* DuplicatedCheck */ = {
+		99B6D243231BB8B6006AC290 /* Permutation */ = {
 			isa = PBXGroup;
 			children = (
-				99B6D22D231BA24F006AC290 /* main.swift */,
-				99B6D234231BA942006AC290 /* StringChecker.swift */,
-				99B6D236231BA96C006AC290 /* PureStringCheck.swift */,
+				99B6D244231BB8B6006AC290 /* main.swift */,
 			);
-			path = DuplicatedCheck;
+			path = Permutation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		99B6D229231BA24F006AC290 /* DuplicatedCheck */ = {
+		99B6D240231BB8B6006AC290 /* Permutation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99B6D231231BA24F006AC290 /* Build configuration list for PBXNativeTarget "DuplicatedCheck" */;
+			buildConfigurationList = 99B6D248231BB8B6006AC290 /* Build configuration list for PBXNativeTarget "Permutation" */;
 			buildPhases = (
-				99B6D226231BA24F006AC290 /* Sources */,
-				99B6D227231BA24F006AC290 /* Frameworks */,
-				99B6D228231BA24F006AC290 /* CopyFiles */,
+				99B6D23D231BB8B6006AC290 /* Sources */,
+				99B6D23E231BB8B6006AC290 /* Frameworks */,
+				99B6D23F231BB8B6006AC290 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DuplicatedCheck;
-			productName = DuplicatedCheck;
-			productReference = 99B6D22A231BA24F006AC290 /* DuplicatedCheck */;
+			name = Permutation;
+			productName = Permutation;
+			productReference = 99B6D241231BB8B6006AC290 /* Permutation */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		99B6D222231BA24F006AC290 /* Project object */ = {
+		99B6D239231BB8B6006AC290 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "배지영";
 				TargetAttributes = {
-					99B6D229231BA24F006AC290 = {
+					99B6D240231BB8B6006AC290 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 99B6D225231BA24F006AC290 /* Build configuration list for PBXProject "DuplicatedCheck" */;
+			buildConfigurationList = 99B6D23C231BB8B6006AC290 /* Build configuration list for PBXProject "Permutation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 99B6D221231BA24E006AC290;
-			productRefGroup = 99B6D22B231BA24F006AC290 /* Products */;
+			mainGroup = 99B6D238231BB8B6006AC290;
+			productRefGroup = 99B6D242231BB8B6006AC290 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99B6D229231BA24F006AC290 /* DuplicatedCheck */,
+				99B6D240231BB8B6006AC290 /* Permutation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		99B6D226231BA24F006AC290 /* Sources */ = {
+		99B6D23D231BB8B6006AC290 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99B6D235231BA942006AC290 /* StringChecker.swift in Sources */,
-				99B6D237231BA96C006AC290 /* PureStringCheck.swift in Sources */,
-				99B6D22E231BA24F006AC290 /* main.swift in Sources */,
+				99B6D245231BB8B6006AC290 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		99B6D22F231BA24F006AC290 /* Debug */ = {
+		99B6D246231BB8B6006AC290 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -195,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		99B6D230231BA24F006AC290 /* Release */ = {
+		99B6D247231BB8B6006AC290 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +241,7 @@
 			};
 			name = Release;
 		};
-		99B6D232231BA24F006AC290 /* Debug */ = {
+		99B6D249231BB8B6006AC290 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -259,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		99B6D233231BA24F006AC290 /* Release */ = {
+		99B6D24A231BB8B6006AC290 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -272,25 +264,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		99B6D225231BA24F006AC290 /* Build configuration list for PBXProject "DuplicatedCheck" */ = {
+		99B6D23C231BB8B6006AC290 /* Build configuration list for PBXProject "Permutation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99B6D22F231BA24F006AC290 /* Debug */,
-				99B6D230231BA24F006AC290 /* Release */,
+				99B6D246231BB8B6006AC290 /* Debug */,
+				99B6D247231BB8B6006AC290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99B6D231231BA24F006AC290 /* Build configuration list for PBXNativeTarget "DuplicatedCheck" */ = {
+		99B6D248231BB8B6006AC290 /* Build configuration list for PBXNativeTarget "Permutation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99B6D232231BA24F006AC290 /* Debug */,
-				99B6D233231BA24F006AC290 /* Release */,
+				99B6D249231BB8B6006AC290 /* Debug */,
+				99B6D24A231BB8B6006AC290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 99B6D222231BA24F006AC290 /* Project object */;
+	rootObject = 99B6D239231BB8B6006AC290 /* Project object */;
 }
